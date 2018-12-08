@@ -1,0 +1,57 @@
+.table {
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3)
+}
+
+.table-head {
+    display: block;
+    background-color: #FAFAFA;
+}
+
+.table-header_item {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.table-body {
+    width: 1000px;
+    display: block;
+    height: 585px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.table-body:hover {
+    overflow-y: scroll;
+    padding-right: -20px;
+}
+
+.table-body_scroll {
+    width: 980px;
+    height: 100%;
+}
+
+.table_num {
+    width: 30px;
+}
+
+.table_name {
+    width: 300px;
+    text-align: left;
+}
+
+.table_price {
+    width: 170px;
+}
+
+.table_capt {
+    width: 250px;
+}
+
+.table_vol {
+    width: 250px;
+}

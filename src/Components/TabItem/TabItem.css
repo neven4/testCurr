@@ -1,0 +1,95 @@
+.table-body_item {
+    padding: 6px;
+    text-align: center;
+    position: relative;
+    color: rgba(0, 0, 0, 0.9);     
+}
+
+.table-body_item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 2px);
+    border-top: 1px solid #ccc;
+    height: 1px;
+}
+
+.table_name {
+    text-align: left;
+}
+
+@media (max-width: 376px) and (max-width: 768px) {
+    .App {
+        height: 100%;
+        position: relative;
+    }
+      
+    .table {
+        width: 370px;
+    }
+    
+    .table-body {
+        width: 370px;
+    }
+    
+    .table-body_scroll {
+        width: 370px;
+    }
+    
+    .table_capt {
+        display: none;
+    }
+    
+    .table_vol {
+        display: none;
+    }
+    
+    .table-body {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 375px) {
+    .App {
+        height: 100%;
+        position: relative;
+    }
+      
+    .table {
+        width: 320px;
+        font-size: 14px;
+    }
+    
+    .table-body {
+        width: 320px;
+        overflow-y: scroll;
+    }
+    
+    .table-body_scroll {
+        width: 320px;
+    }
+    
+    .table_capt {
+        display: none;
+    }
+    
+    .table_vol {
+        display: none;
+    }
+    
+    .table_num {
+        width: 20px;
+    }
+    
+    .table_name {
+        width: 150px;
+        text-align: left;
+    }
+    
+    .table_price {
+        width: 150px;
+    }
+}
+
+
